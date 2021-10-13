@@ -1,0 +1,2 @@
+rootProject.name = "PranavFreshWorks"
+include ':app'

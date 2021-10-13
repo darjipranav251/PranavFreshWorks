@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">PranavFreshWorks</string>
+
+    <!--Common Alert Msg-->
+    <string name="allow">Allow</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="done">Done</string>
+    <string name="back">Back</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">Ok</string>
+
+    <string name="alert_no_connection">No internet connection</string>
+    <string name="make_sure_wifi">Make sure wifi or cellular data is turned on and then try again.</string>
+    <string name="try_again">Try Again</string>
+    <string name="search_gif">Search Gif</string>
+
+</resources>

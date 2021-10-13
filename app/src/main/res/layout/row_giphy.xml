@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.jcminarro.roundkornerlayout.RoundKornerRelativeLayout
+        android:id="@+id/rlMain"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_180dp"
+        android:background="@color/colorWhite"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/dimen_10dp"
+        app:corner_radius="@dimen/dimen_15dp">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="@dimen/dimen_5dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/placeholder" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivGif"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/ivFav"
+            android:layout_width="@dimen/dimen_50dp"
+            android:layout_height="@dimen/dimen_50dp"
+            android:layout_alignParentEnd="true"
+            app:lottie_autoPlay="false"
+            app:lottie_loop="false"
+            app:lottie_rawRes="@raw/fav" />
+
+    </com.jcminarro.roundkornerlayout.RoundKornerRelativeLayout>
+</layout>
